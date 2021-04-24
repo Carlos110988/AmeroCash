@@ -1,4 +1,0 @@
-obj/fe_add.o: tor/fe_add.c tor/fe.h tor/crypto_int32.h tor/torint.h \
- tor/orconfig.h tor/orconfig_linux.h
-tor/fe_add.c tor/fe.h tor/crypto_int32.h tor/torint.h :
- tor/orconfig.h tor/orconfig_linux.h :

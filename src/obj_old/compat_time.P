@@ -1,8 +1,0 @@
-obj/compat_time.o: tor/compat_time.c tor/torcompat.h tor/orconfig.h \
- tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/compat_time.h \
- tor/compat_threads.h tor/torlog.h tor/torutil.h tor/di_ops.h \
- tor/util_bug.h tor/container.h tor/siphash.h
-tor/compat_time.c tor/torcompat.h tor/orconfig.h :
- tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/compat_time.h :
- tor/compat_threads.h tor/torlog.h tor/torutil.h tor/di_ops.h :
- tor/util_bug.h tor/container.h tor/siphash.h :

@@ -1,4 +1,0 @@
-obj/cell_introduce1.o: tor/cell_introduce1.c tor/trunnel-impl.h \
- tor/trunnel.h tor/cell_introduce1.h
-tor/cell_introduce1.c tor/trunnel-impl.h :
- tor/trunnel.h tor/cell_introduce1.h :

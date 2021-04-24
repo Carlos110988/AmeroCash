@@ -1,6 +1,0 @@
-obj/ge_double_scalarmult.o: tor/ge_double_scalarmult.c tor/ge.h tor/fe.h \
- tor/crypto_int32.h tor/torint.h tor/orconfig.h tor/orconfig_linux.h \
- tor/base2.h
-tor/ge_double_scalarmult.c tor/ge.h tor/fe.h :
- tor/crypto_int32.h tor/torint.h tor/orconfig.h tor/orconfig_linux.h :
- tor/base2.h :

@@ -1,4 +1,0 @@
-obj/ge_p3_dbl.o: tor/ge_p3_dbl.c tor/ge.h tor/fe.h tor/crypto_int32.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h
-tor/ge_p3_dbl.c tor/ge.h tor/fe.h tor/crypto_int32.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h :

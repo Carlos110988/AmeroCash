@@ -1,4 +1,0 @@
-obj/ge_tobytes.o: tor/ge_tobytes.c tor/ge.h tor/fe.h tor/crypto_int32.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h
-tor/ge_tobytes.c tor/ge.h tor/fe.h tor/crypto_int32.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h :

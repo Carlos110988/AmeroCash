@@ -1,6 +1,0 @@
-obj/ge_frombytes.o: tor/ge_frombytes.c tor/ge.h tor/fe.h \
- tor/crypto_int32.h tor/torint.h tor/orconfig.h tor/orconfig_linux.h \
- tor/d.h tor/sqrtm1.h
-tor/ge_frombytes.c tor/ge.h tor/fe.h :
- tor/crypto_int32.h tor/torint.h tor/orconfig.h tor/orconfig_linux.h :
- tor/d.h tor/sqrtm1.h :

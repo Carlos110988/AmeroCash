@@ -1,6 +1,0 @@
-obj/fe_isnonzero.o: tor/fe_isnonzero.c tor/fe.h tor/crypto_int32.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/crypto_verify_32.h \
- tor/di_ops.h
-tor/fe_isnonzero.c tor/fe.h tor/crypto_int32.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/crypto_verify_32.h :
- tor/di_ops.h :

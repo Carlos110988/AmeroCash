@@ -1,2 +1,0 @@
-obj/trunnel.o: tor/trunnel.c tor/trunnel-impl.h tor/trunnel.h
-tor/trunnel.c tor/trunnel-impl.h tor/trunnel.h :

@@ -1,6 +1,0 @@
-obj/keyconv.o: tor/keyconv.c tor/fe.h tor/crypto_int32.h tor/torint.h \
- tor/orconfig.h tor/orconfig_linux.h tor/ed25519_ref10.h \
- /root/amerocash/src/tor/torint.h
-tor/keyconv.c tor/fe.h tor/crypto_int32.h tor/torint.h :
- tor/orconfig.h tor/orconfig_linux.h tor/ed25519_ref10.h :
- /root/amerocash/src/tor/torint.h :

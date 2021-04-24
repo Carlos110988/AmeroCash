@@ -1,4 +1,0 @@
-obj/curve25519-donna.o: tor/curve25519-donna.c tor/orconfig.h \
- tor/orconfig_linux.h tor/torint.h
-tor/curve25519-donna.c tor/orconfig.h :
- tor/orconfig_linux.h tor/torint.h :

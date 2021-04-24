@@ -1,8 +1,0 @@
-obj/sandbox.o: tor/sandbox.c tor/orconfig.h tor/orconfig_linux.h \
- tor/sandbox.h tor/torint.h tor/container.h tor/torutil.h tor/torcompat.h \
- tor/testsupport.h tor/compat_time.h tor/compat_threads.h tor/di_ops.h \
- tor/util_bug.h tor/siphash.h tor/torlog.h tor/tor_queue.h tor/ht.h
-tor/sandbox.c tor/orconfig.h tor/orconfig_linux.h :
- tor/sandbox.h tor/torint.h tor/container.h tor/torutil.h tor/torcompat.h :
- tor/testsupport.h tor/compat_time.h tor/compat_threads.h tor/di_ops.h :
- tor/util_bug.h tor/siphash.h tor/torlog.h tor/tor_queue.h tor/ht.h :

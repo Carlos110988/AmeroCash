@@ -1,4 +1,0 @@
-obj/cell_common.o: tor/cell_common.c tor/trunnel-impl.h tor/trunnel.h \
- tor/cell_common.h
-tor/cell_common.c tor/trunnel-impl.h tor/trunnel.h :
- tor/cell_common.h :

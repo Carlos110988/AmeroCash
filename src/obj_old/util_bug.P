@@ -1,8 +1,0 @@
-obj/util_bug.o: tor/util_bug.c tor/orconfig.h tor/orconfig_linux.h \
- tor/util_bug.h tor/torcompat.h tor/torint.h tor/testsupport.h \
- tor/compat_time.h tor/compat_threads.h tor/torlog.h tor/backtrace.h \
- tor/container.h tor/torutil.h tor/di_ops.h tor/siphash.h
-tor/util_bug.c tor/orconfig.h tor/orconfig_linux.h :
- tor/util_bug.h tor/torcompat.h tor/torint.h tor/testsupport.h :
- tor/compat_time.h tor/compat_threads.h tor/torlog.h tor/backtrace.h :
- tor/container.h tor/torutil.h tor/di_ops.h tor/siphash.h :

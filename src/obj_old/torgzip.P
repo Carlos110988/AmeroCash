@@ -1,8 +1,0 @@
-obj/torgzip.o: tor/torgzip.c tor/orconfig.h tor/orconfig_linux.h \
- tor/torint.h tor/torutil.h tor/torcompat.h tor/testsupport.h \
- tor/compat_time.h tor/compat_threads.h tor/di_ops.h tor/util_bug.h \
- tor/torlog.h tor/torgzip.h
-tor/torgzip.c tor/orconfig.h tor/orconfig_linux.h :
- tor/torint.h tor/torutil.h tor/torcompat.h tor/testsupport.h :
- tor/compat_time.h tor/compat_threads.h tor/di_ops.h tor/util_bug.h :
- tor/torlog.h tor/torgzip.h :

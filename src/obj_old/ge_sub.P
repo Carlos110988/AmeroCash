@@ -1,4 +1,0 @@
-obj/ge_sub.o: tor/ge_sub.c tor/ge.h tor/fe.h tor/crypto_int32.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/ge_sub.h
-tor/ge_sub.c tor/ge.h tor/fe.h tor/crypto_int32.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/ge_sub.h :

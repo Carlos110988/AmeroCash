@@ -1,6 +1,0 @@
-obj/di_ops.o: tor/di_ops.c tor/orconfig.h tor/orconfig_linux.h \
- tor/di_ops.h tor/torint.h tor/torlog.h tor/torcompat.h tor/testsupport.h \
- tor/compat_time.h tor/compat_threads.h tor/torutil.h tor/util_bug.h
-tor/di_ops.c tor/orconfig.h tor/orconfig_linux.h :
- tor/di_ops.h tor/torint.h tor/torlog.h tor/torcompat.h tor/testsupport.h :
- tor/compat_time.h tor/compat_threads.h tor/torutil.h tor/util_bug.h :

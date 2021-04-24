@@ -1,6 +1,0 @@
-obj/keccak-tiny-unrolled.o: tor/keccak-tiny-unrolled.c tor/keccak-tiny.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/crypto.h \
- tor/testsupport.h tor/torcompat.h tor/compat_time.h tor/compat_threads.h
-tor/keccak-tiny-unrolled.c tor/keccak-tiny.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/crypto.h :
- tor/testsupport.h tor/torcompat.h tor/compat_time.h tor/compat_threads.h :

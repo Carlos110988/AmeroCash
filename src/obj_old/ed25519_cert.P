@@ -1,4 +1,0 @@
-obj/ed25519_cert.o: tor/ed25519_cert.c tor/trunnel-impl.h tor/trunnel.h \
- tor/ed25519_cert.h
-tor/ed25519_cert.c tor/trunnel-impl.h tor/trunnel.h :
- tor/ed25519_cert.h :

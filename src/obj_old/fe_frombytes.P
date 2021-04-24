@@ -1,6 +1,0 @@
-obj/fe_frombytes.o: tor/fe_frombytes.c tor/fe.h tor/crypto_int32.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/crypto_int64.h \
- tor/crypto_uint64.h
-tor/fe_frombytes.c tor/fe.h tor/crypto_int32.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/crypto_int64.h :
- tor/crypto_uint64.h :

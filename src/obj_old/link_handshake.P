@@ -1,4 +1,0 @@
-obj/link_handshake.o: tor/link_handshake.c tor/trunnel-impl.h \
- tor/trunnel.h tor/link_handshake.h
-tor/link_handshake.c tor/trunnel-impl.h :
- tor/trunnel.h tor/link_handshake.h :

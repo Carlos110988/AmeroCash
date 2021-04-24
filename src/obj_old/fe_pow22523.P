@@ -1,4 +1,0 @@
-obj/fe_pow22523.o: tor/fe_pow22523.c tor/fe.h tor/crypto_int32.h \
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/pow22523.h
-tor/fe_pow22523.c tor/fe.h tor/crypto_int32.h :
- tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/pow22523.h :

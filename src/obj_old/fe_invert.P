@@ -1,0 +1,4 @@
+obj/fe_invert.o: tor/fe_invert.c tor/fe.h tor/crypto_int32.h tor/torint.h \
+ tor/orconfig.h tor/orconfig_linux.h tor/pow225521.h
+tor/fe_invert.c tor/fe.h tor/crypto_int32.h tor/torint.h :
+ tor/orconfig.h tor/orconfig_linux.h tor/pow225521.h :

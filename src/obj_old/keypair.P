@@ -1,0 +1,16 @@
+obj/keypair.o: tor/keypair.c tor/randombytes.h tor/crypto.h \
+ tor/orconfig.h tor/orconfig_linux.h tor/torint.h tor/testsupport.h \
+ tor/torcompat.h tor/compat_time.h tor/compat_threads.h tor/crypto_sign.h \
+ tor/ed25519_ref10.h /root/amerocash/src/tor/torint.h \
+ tor/crypto_hash_sha512.h /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ge.h tor/fe.h \
+ tor/crypto_int32.h
+tor/keypair.c tor/randombytes.h tor/crypto.h :
+ tor/orconfig.h tor/orconfig_linux.h tor/torint.h tor/testsupport.h :
+ tor/torcompat.h tor/compat_time.h tor/compat_threads.h tor/crypto_sign.h :
+ tor/ed25519_ref10.h /root/amerocash/src/tor/torint.h :
+ tor/crypto_hash_sha512.h /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ge.h tor/fe.h :
+ tor/crypto_int32.h :

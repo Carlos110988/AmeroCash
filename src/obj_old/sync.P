@@ -1,0 +1,24 @@
+obj/sync.o: sync.cpp sync.h threadsafety.h util.h uint256.h \
+ /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h \
+ /usr/local/ssl/include/openssl/ripemd.h netbase.h serialize.h \
+ allocators.h /usr/local/ssl/include/openssl/crypto.h \
+ /usr/local/ssl/include/openssl/stack.h \
+ /usr/local/ssl/include/openssl/safestack.h \
+ /usr/local/ssl/include/openssl/opensslv.h \
+ /usr/local/ssl/include/openssl/ossl_typ.h \
+ /usr/local/ssl/include/openssl/symhacks.h version.h clientversion.h \
+ compat.h
+sync.cpp sync.h threadsafety.h util.h uint256.h :
+ /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h :
+ /usr/local/ssl/include/openssl/ripemd.h netbase.h serialize.h :
+ allocators.h /usr/local/ssl/include/openssl/crypto.h :
+ /usr/local/ssl/include/openssl/stack.h :
+ /usr/local/ssl/include/openssl/safestack.h :
+ /usr/local/ssl/include/openssl/opensslv.h :
+ /usr/local/ssl/include/openssl/ossl_typ.h :
+ /usr/local/ssl/include/openssl/symhacks.h version.h clientversion.h :
+ compat.h :

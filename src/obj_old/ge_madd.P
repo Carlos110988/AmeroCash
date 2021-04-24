@@ -1,0 +1,4 @@
+obj/ge_madd.o: tor/ge_madd.c tor/ge.h tor/fe.h tor/crypto_int32.h \
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/ge_madd.h
+tor/ge_madd.c tor/ge.h tor/fe.h tor/crypto_int32.h :
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/ge_madd.h :

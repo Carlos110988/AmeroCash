@@ -1,0 +1,4 @@
+obj/readpassphrase.o: tor/readpassphrase.c tor/orconfig.h \
+ tor/orconfig_linux.h tor/tor_readpassphrase.h
+tor/readpassphrase.c tor/orconfig.h :
+ tor/orconfig_linux.h tor/tor_readpassphrase.h :

@@ -1,0 +1,14 @@
+obj/sign.o: tor/sign.c tor/crypto_sign.h tor/ed25519_ref10.h \
+ /root/amerocash/src/tor/torint.h /root/amerocash/src/tor/orconfig.h \
+ /root/amerocash/src/tor/orconfig_linux.h tor/crypto_hash_sha512.h \
+ /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ge.h tor/fe.h \
+ tor/crypto_int32.h tor/torint.h tor/sc.h
+tor/sign.c tor/crypto_sign.h tor/ed25519_ref10.h :
+ /root/amerocash/src/tor/torint.h /root/amerocash/src/tor/orconfig.h :
+ /root/amerocash/src/tor/orconfig_linux.h tor/crypto_hash_sha512.h :
+ /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ge.h tor/fe.h :
+ tor/crypto_int32.h tor/torint.h tor/sc.h :

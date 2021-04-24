@@ -1,0 +1,4 @@
+obj/ge_msub.o: tor/ge_msub.c tor/ge.h tor/fe.h tor/crypto_int32.h \
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/ge_msub.h
+tor/ge_msub.c tor/ge.h tor/fe.h tor/crypto_int32.h :
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/ge_msub.h :

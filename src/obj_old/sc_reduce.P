@@ -1,0 +1,6 @@
+obj/sc_reduce.o: tor/sc_reduce.c tor/sc.h tor/crypto_int64.h tor/torint.h \
+ tor/orconfig.h tor/orconfig_linux.h tor/crypto_uint32.h \
+ tor/crypto_uint64.h
+tor/sc_reduce.c tor/sc.h tor/crypto_int64.h tor/torint.h :
+ tor/orconfig.h tor/orconfig_linux.h tor/crypto_uint32.h :
+ tor/crypto_uint64.h :

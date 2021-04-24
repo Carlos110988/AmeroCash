@@ -1,0 +1,2 @@
+obj/ntmain.o: tor/ntmain.c
+tor/ntmain.c :

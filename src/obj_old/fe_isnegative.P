@@ -1,0 +1,4 @@
+obj/fe_isnegative.o: tor/fe_isnegative.c tor/fe.h tor/crypto_int32.h \
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h
+tor/fe_isnegative.c tor/fe.h tor/crypto_int32.h :
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h :

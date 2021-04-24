@@ -1,0 +1,34 @@
+obj/crypto_s2k.o: tor/crypto_s2k.c tor/crypto.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/torcompat.h \
+ tor/compat_time.h tor/compat_threads.h tor/torutil.h tor/di_ops.h \
+ tor/util_bug.h tor/crypto_s2k.h /usr/local/ssl/include/openssl/evp.h \
+ /usr/local/ssl/include/openssl/opensslconf.h \
+ /usr/local/ssl/include/openssl/ossl_typ.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/symhacks.h \
+ /usr/local/ssl/include/openssl/bio.h \
+ /usr/local/ssl/include/openssl/crypto.h \
+ /usr/local/ssl/include/openssl/stack.h \
+ /usr/local/ssl/include/openssl/safestack.h \
+ /usr/local/ssl/include/openssl/opensslv.h \
+ /usr/local/ssl/include/openssl/objects.h \
+ /usr/local/ssl/include/openssl/obj_mac.h \
+ /usr/local/ssl/include/openssl/asn1.h \
+ /usr/local/ssl/include/openssl/bn.h
+tor/crypto_s2k.c tor/crypto.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/torcompat.h :
+ tor/compat_time.h tor/compat_threads.h tor/torutil.h tor/di_ops.h :
+ tor/util_bug.h tor/crypto_s2k.h /usr/local/ssl/include/openssl/evp.h :
+ /usr/local/ssl/include/openssl/opensslconf.h :
+ /usr/local/ssl/include/openssl/ossl_typ.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/symhacks.h :
+ /usr/local/ssl/include/openssl/bio.h :
+ /usr/local/ssl/include/openssl/crypto.h :
+ /usr/local/ssl/include/openssl/stack.h :
+ /usr/local/ssl/include/openssl/safestack.h :
+ /usr/local/ssl/include/openssl/opensslv.h :
+ /usr/local/ssl/include/openssl/objects.h :
+ /usr/local/ssl/include/openssl/obj_mac.h :
+ /usr/local/ssl/include/openssl/asn1.h :
+ /usr/local/ssl/include/openssl/bn.h :

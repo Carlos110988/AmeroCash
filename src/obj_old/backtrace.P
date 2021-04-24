@@ -1,0 +1,8 @@
+obj/backtrace.o: tor/backtrace.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/torcompat.h tor/torint.h tor/testsupport.h tor/compat_time.h \
+ tor/compat_threads.h tor/torutil.h tor/di_ops.h tor/util_bug.h \
+ tor/torlog.h tor/backtrace.h
+tor/backtrace.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/torcompat.h tor/torint.h tor/testsupport.h tor/compat_time.h :
+ tor/compat_threads.h tor/torutil.h tor/di_ops.h tor/util_bug.h :
+ tor/torlog.h tor/backtrace.h :

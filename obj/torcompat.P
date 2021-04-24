@@ -1,0 +1,10 @@
+obj/torcompat.o: tor/torcompat.c tor/torcompat.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/compat_time.h \
+ tor/compat_threads.h tor/tor_readpassphrase.h tor/torlog.h tor/torutil.h \
+ tor/di_ops.h tor/util_bug.h tor/container.h tor/siphash.h tor/address.h \
+ tor/sandbox.h tor/strlcpy.c tor/strlcat.c
+tor/torcompat.c tor/torcompat.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/compat_time.h :
+ tor/compat_threads.h tor/tor_readpassphrase.h tor/torlog.h tor/torutil.h :
+ tor/di_ops.h tor/util_bug.h tor/container.h tor/siphash.h tor/address.h :
+ tor/sandbox.h tor/strlcpy.c tor/strlcat.c :

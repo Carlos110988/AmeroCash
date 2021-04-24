@@ -1,0 +1,14 @@
+obj/blinding.o: tor/blinding.c tor/ge.h tor/fe.h tor/crypto_int32.h \
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/sc.h \
+ tor/crypto_hash_sha512.h /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ed25519_ref10.h \
+ /root/amerocash/src/tor/torint.h tor/crypto.h tor/testsupport.h \
+ tor/torcompat.h tor/compat_time.h tor/compat_threads.h
+tor/blinding.c tor/ge.h tor/fe.h tor/crypto_int32.h :
+ tor/torint.h tor/orconfig.h tor/orconfig_linux.h tor/sc.h :
+ tor/crypto_hash_sha512.h /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ed25519_ref10.h :
+ /root/amerocash/src/tor/torint.h tor/crypto.h tor/testsupport.h :
+ tor/torcompat.h tor/compat_time.h tor/compat_threads.h :

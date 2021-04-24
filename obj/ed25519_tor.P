@@ -1,0 +1,26 @@
+obj/ed25519_tor.o: tor/ed25519_tor.c tor/orconfig.h tor/orconfig_linux.h \
+ tor/ed25519-donna.h tor/ed25519-donna-portable.h \
+ tor/ed25519-donna-portable-identify.h tor/curve25519-donna-64bit.h \
+ tor/curve25519-donna-helpers.h tor/modm-donna-64bit.h \
+ tor/ed25519-donna-basepoint-table.h tor/ed25519-donna-64bit-tables.h \
+ tor/ed25519-donna-64bit-x86.h tor/ed25519-donna-impl-base.h \
+ tor/ed25519_donna_tor.h /root/amerocash/src/tor/torint.h \
+ /root/amerocash/src/tor/orconfig.h tor/ed25519-randombytes.h \
+ /usr/local/ssl/include/openssl/rand.h \
+ /usr/local/ssl/include/openssl/ossl_typ.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ed25519-hash.h \
+ /usr/local/ssl/include/openssl/sha.h tor/ed25519-donna-batchverify.h
+tor/ed25519_tor.c tor/orconfig.h tor/orconfig_linux.h :
+ tor/ed25519-donna.h tor/ed25519-donna-portable.h :
+ tor/ed25519-donna-portable-identify.h tor/curve25519-donna-64bit.h :
+ tor/curve25519-donna-helpers.h tor/modm-donna-64bit.h :
+ tor/ed25519-donna-basepoint-table.h tor/ed25519-donna-64bit-tables.h :
+ tor/ed25519-donna-64bit-x86.h tor/ed25519-donna-impl-base.h :
+ tor/ed25519_donna_tor.h /root/amerocash/src/tor/torint.h :
+ /root/amerocash/src/tor/orconfig.h tor/ed25519-randombytes.h :
+ /usr/local/ssl/include/openssl/rand.h :
+ /usr/local/ssl/include/openssl/ossl_typ.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h tor/ed25519-hash.h :
+ /usr/local/ssl/include/openssl/sha.h tor/ed25519-donna-batchverify.h :

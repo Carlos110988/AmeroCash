@@ -1,0 +1,22 @@
+obj/crypto_ed25519.o: tor/crypto_ed25519.c tor/orconfig.h \
+ tor/orconfig_linux.h tor/crypto.h tor/torint.h tor/testsupport.h \
+ tor/torcompat.h tor/compat_time.h tor/compat_threads.h \
+ tor/crypto_curve25519.h tor/crypto_ed25519.h tor/crypto_format.h \
+ tor/torlog.h tor/torutil.h tor/di_ops.h tor/util_bug.h \
+ /root/amerocash/src/ed25519/ref10/ed25519_ref10.h \
+ /root/amerocash/src/tor/torint.h \
+ /root/amerocash/src/ed25519/donna/ed25519_donna_tor.h \
+ /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h
+tor/crypto_ed25519.c tor/orconfig.h :
+ tor/orconfig_linux.h tor/crypto.h tor/torint.h tor/testsupport.h :
+ tor/torcompat.h tor/compat_time.h tor/compat_threads.h :
+ tor/crypto_curve25519.h tor/crypto_ed25519.h tor/crypto_format.h :
+ tor/torlog.h tor/torutil.h tor/di_ops.h tor/util_bug.h :
+ /root/amerocash/src/ed25519/ref10/ed25519_ref10.h :
+ /root/amerocash/src/tor/torint.h :
+ /root/amerocash/src/ed25519/donna/ed25519_donna_tor.h :
+ /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h :

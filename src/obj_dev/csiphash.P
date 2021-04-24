@@ -1,0 +1,8 @@
+obj/csiphash.o: tor/csiphash.c tor/torint.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/siphash.h tor/torutil.h tor/torcompat.h \
+ tor/testsupport.h tor/compat_time.h tor/compat_threads.h tor/di_ops.h \
+ tor/util_bug.h
+tor/csiphash.c tor/torint.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/siphash.h tor/torutil.h tor/torcompat.h :
+ tor/testsupport.h tor/compat_time.h tor/compat_threads.h tor/di_ops.h :
+ tor/util_bug.h :

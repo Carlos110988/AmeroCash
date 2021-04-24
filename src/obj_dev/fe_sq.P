@@ -1,0 +1,4 @@
+obj/fe_sq.o: tor/fe_sq.c tor/fe.h tor/crypto_int32.h tor/torint.h \
+ tor/orconfig.h tor/orconfig_linux.h tor/crypto_int64.h
+tor/fe_sq.c tor/fe.h tor/crypto_int32.h tor/torint.h :
+ tor/orconfig.h tor/orconfig_linux.h tor/crypto_int64.h :

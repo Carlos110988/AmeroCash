@@ -1,0 +1,8 @@
+obj/container.o: tor/container.c tor/torcompat.h tor/orconfig.h \
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/compat_time.h \
+ tor/compat_threads.h tor/torutil.h tor/di_ops.h tor/util_bug.h \
+ tor/torlog.h tor/container.h tor/siphash.h tor/crypto.h tor/ht.h
+tor/container.c tor/torcompat.h tor/orconfig.h :
+ tor/orconfig_linux.h tor/torint.h tor/testsupport.h tor/compat_time.h :
+ tor/compat_threads.h tor/torutil.h tor/di_ops.h tor/util_bug.h :
+ tor/torlog.h tor/container.h tor/siphash.h tor/crypto.h tor/ht.h :

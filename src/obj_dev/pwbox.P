@@ -1,0 +1,2 @@
+obj/pwbox.o: tor/pwbox.c tor/trunnel-impl.h tor/trunnel.h tor/pwbox.h
+tor/pwbox.c tor/trunnel-impl.h tor/trunnel.h tor/pwbox.h :

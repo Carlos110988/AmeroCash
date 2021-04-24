@@ -1,0 +1,6 @@
+obj/pbkdf2.o: pbkdf2.cpp pbkdf2.h /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h
+pbkdf2.cpp pbkdf2.h /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h :

@@ -1,0 +1,6 @@
+obj/ge_p3_to_cached.o: tor/ge_p3_to_cached.c tor/ge.h tor/fe.h \
+ tor/crypto_int32.h tor/torint.h tor/orconfig.h tor/orconfig_linux.h \
+ tor/d2.h
+tor/ge_p3_to_cached.c tor/ge.h tor/fe.h :
+ tor/crypto_int32.h tor/torint.h tor/orconfig.h tor/orconfig_linux.h :
+ tor/d2.h :

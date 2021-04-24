@@ -1,0 +1,28 @@
+obj/anonymize.o: tor/anonymize.cpp tor/anonymize.h \
+ /root/amerocash/src/util.h /root/amerocash/src/uint256.h \
+ /usr/local/ssl/include/openssl/sha.h \
+ /usr/local/ssl/include/openssl/e_os2.h \
+ /usr/local/ssl/include/openssl/opensslconf.h \
+ /usr/local/ssl/include/openssl/ripemd.h /root/amerocash/src/netbase.h \
+ /root/amerocash/src/serialize.h /root/amerocash/src/allocators.h \
+ /usr/local/ssl/include/openssl/crypto.h \
+ /usr/local/ssl/include/openssl/stack.h \
+ /usr/local/ssl/include/openssl/safestack.h \
+ /usr/local/ssl/include/openssl/opensslv.h \
+ /usr/local/ssl/include/openssl/ossl_typ.h \
+ /usr/local/ssl/include/openssl/symhacks.h /root/amerocash/src/version.h \
+ /root/amerocash/src/clientversion.h /root/amerocash/src/compat.h
+tor/anonymize.cpp tor/anonymize.h :
+ /root/amerocash/src/util.h /root/amerocash/src/uint256.h :
+ /usr/local/ssl/include/openssl/sha.h :
+ /usr/local/ssl/include/openssl/e_os2.h :
+ /usr/local/ssl/include/openssl/opensslconf.h :
+ /usr/local/ssl/include/openssl/ripemd.h /root/amerocash/src/netbase.h :
+ /root/amerocash/src/serialize.h /root/amerocash/src/allocators.h :
+ /usr/local/ssl/include/openssl/crypto.h :
+ /usr/local/ssl/include/openssl/stack.h :
+ /usr/local/ssl/include/openssl/safestack.h :
+ /usr/local/ssl/include/openssl/opensslv.h :
+ /usr/local/ssl/include/openssl/ossl_typ.h :
+ /usr/local/ssl/include/openssl/symhacks.h /root/amerocash/src/version.h :
+ /root/amerocash/src/clientversion.h /root/amerocash/src/compat.h :

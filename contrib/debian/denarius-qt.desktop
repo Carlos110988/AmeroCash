@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AmeroCash
+Comment=AmeroCash P2P Cryptocurrency
+Comment[fr]=AmeroCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AmeroCash, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/AmeroCash
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/amerocash;
+Categories=Office;

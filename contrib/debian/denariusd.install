@@ -1,0 +1,2 @@
+debian/bin/amerocashd usr/bin
+src/amerocashd usr/lib/amerocash
